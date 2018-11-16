@@ -1,4 +1,4 @@
-[aknatva@lcnchadgnd001 src]$ cat extract_yarn_app_stats.py
+
 #!/usr/bin/python
 
 import requests,csv
