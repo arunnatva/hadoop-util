@@ -1,4 +1,4 @@
-[aknatva@lcnchadgnd001 scripts]$ cat yarn_appstats.sh
+$ cat yarn_appstats.sh
 #!/bin/bash
 
 
@@ -8,7 +8,7 @@ CSVFILE_PATH="$HOME""/""$CSV_FILENAME"
 echo "$CSVFILE_PATH"
 
 ### INVOKE THE PYTHON CODE TO EXTRACT YARN APP STATS INTO CSV FILE
-/opt/anaconda3/envs/py35/bin/python ../src/extract_yarn_app_stats.py ../conf/dev-app.conf
+/opt/anaconda3/envs/pyenv/bin/python ../src/extract_yarn_app_stats.py ../conf/dev-app.conf
 
 ### COPY DATA INTO HDFS FILE
 CSV_HDFS_PATH="/user/$USER/""$CSV_FILENAME"
